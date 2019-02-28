@@ -1,2 +1,2 @@
 # Samples-python-helloworld
-Simple hello world code to show a Pythonconnection to InterSystems IRIS
+Simple hello world code to show a Python connection to InterSystems IRIS
