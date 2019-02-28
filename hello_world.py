@@ -3,7 +3,7 @@ import irisnative
 
 def run():
     ip = "localhost"
-    port = 51777
+    port = 51773
     namespace = "USER"
     username = "SuperUser"
     password = "SYS"
