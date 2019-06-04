@@ -1,3 +1,9 @@
+"""
+PURPOSE: Makes a connection to an instance of InterSystems IRIS Data Platform.
+This example also stores data natively into your instance of InterSystems IRIS.
+"""
+
+
 import irisnative
 
 
@@ -13,7 +19,7 @@ def run():
     connection = irisnative.createConnection(ip, port, namespace, username, password)
     print("Hello World! You have successfully connected to InterSystems IRIS.")
 
-    # Create iris object
+    # Create an InterSystems IRIS native object
     iris_native = irisnative.createIris(connection)
 
     # Store data natively into a global
