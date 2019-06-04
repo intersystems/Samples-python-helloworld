@@ -22,7 +22,7 @@ def run():
     # Create an InterSystems IRIS native object
     iris_native = irisnative.createIris(connection)
 
-    # Store data natively into a global
+    # Store data natively into a global using the InterSystems IRIS native object
     iris_native.set(8888, "^testglobal", "1")
     global_value = iris_native.get("^testglobal", "1")
     print("The value of ^testglobal(1) is {}".format(global_value))
