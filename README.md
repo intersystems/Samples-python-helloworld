@@ -17,4 +17,4 @@ From the Management Portal, switch to the USER namespace. Choose **System Explor
 	
 ## Keep Exploring
 
-* To see another example using Python and InterSystems IRIS, see the [Python multi-model](home/project/quickstarts-multimodel-python/README.md) example.
+* To see another example using Python and InterSystems IRIS, see the [Python multi-model](home/project/quickstarts-multimodel-python/README.md) example or try the [Python QuickStart](https://gettingstarted.intersystems.com/language-quickstarts/python-quickstart/).
